@@ -1,0 +1,106 @@
+/* Nuevo Contacto - Estilos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6; /* Fondo suave para el cuerpo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    color: #007bff; /* Color del encabezado igual que el icono de perfil */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo del enlace al perfil */
+#profileLink i {
+    color: #007bff;
+    font-size: 60px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Estilo de los campos del formulario */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #007bff; /* Color similar al de los botones */
+    box-shadow: none;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Estilo de los campos al tener el foco */
+.form-control:focus {
+    border-color: #0056b3; /* Cambio a un azul más oscuro al enfocar */
+    box-shadow: 0 0 5px rgba(0, 91, 255, 0.5);
+}
+
+/* Estilo de los botones */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Estilo del botón "Volver a la Agenda" */
+.btn-outline-primary {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+header {
+    background-color: #007bff;
+    border-color: #004085;
+    border-width: 5px; /* El grosor del borde, lo he reducido para que no se vea demasiado grueso */
+    border-style: solid; /* Asegura que el borde se vea */
+    border-radius: 15px; /* Radio de las esquinas, puedes ajustarlo según tus preferencias */
+    padding: 20px; /* Ajusté el padding para darle más espacio dentro del header */
+    text-align: center; /* Centra el contenido del encabezado */
+    color: white; /* Asegura que el texto sea blanco sobre el fondo azul */
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0; /* Quita los márgenes del encabezado */
+}
+
+/* Centra el icono de perfil */
+.icon-container {
+    display: flex;
+    justify-content: center;  /* Centra el ícono horizontalmente */
+    align-items: center;      /* Centra el ícono verticalmente */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+

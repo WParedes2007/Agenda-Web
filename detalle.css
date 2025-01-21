@@ -1,0 +1,198 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header h5 {
+    font-size: 1.2rem;
+}
+
+header a {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Main Container */
+.agenda-container, .profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact List */
+.contact-list {
+    margin-bottom: 40px;
+}
+
+.contact-list h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-list .list-group-item {
+    font-size: 1.1rem;
+    padding: 15px;
+}
+
+.contact-list .badge {
+    background-color: #007bff;
+}
+
+/* Contact Card (Detalles del contacto) */
+.card {
+    width: 18rem;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title, .card-text {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Buttons */
+button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Contact List Item Hover */
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Add Custom Spacing and Alignments */
+.add-contact-button, .favoritos-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile-container {
+    text-align: center;
+}
+
+.profile-container i {
+    font-size: 5rem;
+    color: #007bff;
+}
+
+.profile-container h1 {
+    margin-bottom: 30px;
+}
+
+.profile-container .card {
+    margin-top: 20px;
+}
+
+.profile-container .card-body p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Make it responsive */
+@media (max-width: 768px) {
+    .agenda-container, .profile-container {
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .contact-list h2, .add-contact-button, .favoritos-button {
+        text-align: center;
+    }
+}
+
+
