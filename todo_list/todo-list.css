@@ -1,0 +1,85 @@
+/* Estilos generales de la lista de tareas */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.todo-list {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #007bff; /* Color primario */
+}
+
+/* Estilos para los botones */
+button {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+/* Estilo para el botón eliminar */
+.delete-btn {
+    font-size: 1rem;
+    padding: 5px 10px;
+    color: white;
+    background-color: #dc3545; /* Rojo de Bootstrap */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c82333; /* Rojo más oscuro al hacer hover */
+}
+
+/* Estilo para las tareas */
+#taskList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#taskList .list-group-item .task-text {
+    flex-grow: 1;
+}
+
+#taskList .list-group-item .priority {
+    background-color: #28a745;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* Enlace para volver a la agenda */
+a {
+    text-decoration: none;
+}
+
+a.btn {
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Botones de acción en las tareas */
+button {
+    cursor: pointer;
+}
+
+
+
+
+
+
